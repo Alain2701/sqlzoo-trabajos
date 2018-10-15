@@ -1,8 +1,8 @@
-1. /*Change the query shown so that it displays Nobel prizes for 1950.*/
+1. 
 SELECT sum(population)
 FROM world
 
-2.
+2. 
 SELECT DISTINCT(continent)
 FROM world
 
@@ -26,13 +26,13 @@ SELECT continent, COUNT(name)
 FROM world 
 GROUP BY continent;
 
-7.
+7. 
 SELECT continent, COUNT(name)
 FROM world 
 WHERE population>=10000000
 GROUP BY continent;
 
-8.
+8. 
 SELECT continent
 FROM world 
 GROUP BY continent 
